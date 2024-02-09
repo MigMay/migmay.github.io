@@ -36,7 +36,7 @@
   background-color: bisque;
 }
 .profile-pic {
-  background-image: url('roshi.jpeg');
+    background-image: url('roshi.jpeg');
     background-size: cover;
 }
 
@@ -99,7 +99,6 @@ button{
     font-weight: bold;
     font-size: 15px;
     transition: .4s;
-
 }
 
 button:hover{
@@ -107,3 +106,26 @@ button:hover{
     cursor: pointer;
 
 }
+
+.bio h3 {
+    margin: 20px;
+}
+
+.bio p {
+    margin: 20px;
+}
+
+.more-text h3 {
+    margin: 20px;
+}
+
+.more-text p {
+    margin: 20px;
+}
+
+.footer {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
